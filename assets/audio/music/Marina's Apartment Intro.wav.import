@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b61w6vcp8uc2b"
+path="res://.godot/imported/Marina's Apartment Intro.wav-3bcc731507c40a68118839253e7ccc5d.sample"
+
+[deps]
+
+source_file="res://assets/audio/music/Marina's Apartment Intro.wav"
+dest_files=["res://.godot/imported/Marina's Apartment Intro.wav-3bcc731507c40a68118839253e7ccc5d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=1
