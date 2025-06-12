@@ -25,6 +25,7 @@ GameGlobal="*res://autoloads/general/game_global.gd"
 GameGlobalEvents="*res://autoloads/general/game_global_events.gd"
 Debug="*res://autoloads/debug/debug.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+SignalLens="*res://addons/signal_lens/autoload/signal_lens_autoload.gd"
 
 [dialogic]
 
@@ -38,7 +39,7 @@ window/stretch/mode="viewport"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
+enabled=PackedStringArray("res://addons/Todo_Manager/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/signal_lens/plugin.cfg")
 
 [file_customization]
 

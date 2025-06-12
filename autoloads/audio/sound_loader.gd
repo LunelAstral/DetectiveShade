@@ -13,6 +13,9 @@ func load_ost() -> void:
 	# Add OST loads here in format (int: [preload(song_path), end_of_loop (-1 for no looping)]
 	# Ex:
 	#		0: [preload("res://assets/audio/ost/theme.wav"), 356]
+	
+	# TODO: Merge Intro and Loop into one song, combined with MusicManager "to do", change it so that
+	# this is an array and the second number is an array of where to loop songs.
 	var song_list : Dictionary[int, Array] = {
 		0: [preload("res://assets/audio/music/Evelyn Photo Intro.wav"), -1],
 		1: [preload("res://assets/audio/music/Evelyn Photo Loop.wav"), 0],

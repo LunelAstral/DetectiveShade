@@ -12,6 +12,8 @@ var crossfade := false ## If MusicManager is currently crossfading or not
 func _ready() -> void:
 	setup_music_players()
 
+# TODO: Change this so that it loops between two values to better fit the Intro/Loop merge
+# of the sound_loader "to do"
 func _process(_delta: float) -> void:
 	if current_song != &"":
 		if song_pool.get(current_song).get(1) != -1 and not crossfade:
